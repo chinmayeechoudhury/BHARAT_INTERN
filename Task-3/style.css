@@ -1,0 +1,263 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.bg{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/b4c7f092-0488-48b7-854d-ca055a84fb4f/5b22968d-b94f-44ec-bea3-45dcf457f29e/IN-en-20231204-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size: cover;
+    margin-left: -12px;
+    margin-right: -12px;
+    height: 95vh;
+}
+.shade{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 95vh;
+    padding: 0px;
+    margin-left: -12px;
+    overflow: hidden;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+nav{
+    width: 80%;
+}
+main{
+    height: 83.8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.emaildiv{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+main .title{
+    width: 74%;
+    text-align: center;
+    font-size: 54px;
+    font-weight: bolder;
+}
+main .title+div{
+    font-size: 23px;
+    margin-top: 10px;
+}
+main .title+div+div{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+section{
+    margin-left: -12px;
+    margin-right: -12px;
+    color: white;
+    background: black;
+}
+.tv{
+    border-top: 10px solid rgb(36, 35, 35);
+    height: 580px;
+    display: flex;
+    justify-content: center;
+
+}
+.tv-content{
+    width: 80%;
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-container{
+    position: relative;
+    width: 50%;
+    z-index: 2;
+}
+.video-container{
+    position: absolute;
+    top: 20%;
+    right: 2.4%;
+    z-index: -2;
+}
+.container-video{
+    width: 87.5%;
+}
+.text-container{
+    width: 50%;
+    
+}
+.tctitle{
+    font-size: 58px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.tcsubtitle{
+    font-size: 24px;
+}
+.mobile{
+    border-top: 10px solid rgb(36, 35, 35);
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    
+}
+.mobile-content{
+    width: 80%;
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.img-container2{
+    position: relative;
+    width: 50%;
+    z-index: 2;
+}
+.img-download{
+    height: 100px;
+    background-color: black;
+    border: 2px solid gray;
+    width: 55%;
+    position: absolute;
+    bottom: 0%;
+    left: 22.5%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.download-pic{
+height: 80%;
+width: 20%;
+
+}
+.download-text{
+    font-size: 16px;
+}
+.download-icon{
+    font-size: 1px;
+    height: 80%;
+    width: 20%;
+}
+.watch{
+    border-top: 10px solid rgb(36, 35, 35);
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    
+}
+.watch-container{
+    width: 80%;
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.watch-text{
+    width: 50%;
+}
+.watch-img{
+    position: relative;
+    z-index: 2;
+    width: 50%;
+}
+.watch-container-video{
+    position: absolute;
+    top: 10.4%;
+    right: 19.5%;
+    width: 62%;
+    z-index: -2;
+}
+.faq{
+    border-top: 10px solid rgb(36, 35, 35);
+    display: flex;
+    justify-content: center;
+}
+.faq-container{
+    width: 80%;
+    color: white;
+}
+.faq-title{
+    margin-top: 60px;
+    font-size: 47px;
+    font-weight: bold;
+    text-align: center;
+}
+.accordion-item{
+    background-color: rgb(49, 47, 47);
+}
+.accordion-button{
+    background-color: rgb(49, 47, 47);
+}
+.readyto{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.subscribe-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+#emailinput{
+    height: 60px;
+    width: 380px;
+}
+#subbtn{
+    background-color: #E50914;
+    font-weight: 600; width: 200px;
+    height: 60px;
+}
+.dropdown li:hover{
+    background-color: gray;
+    color: white;
+
+}
+footer{
+    margin-left: -12px;
+    margin-right: -12px;
+    background: black;
+}
+.footer-div{
+    border-top: 10px solid rgb(36, 35, 35);
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    width: 80%;
+    color: white;
+    font-size: 14px;
+}
+.foot-tit{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    color: rgb(224, 220, 220);
+}
+.foot-tit a{
+    color: unset;
+}
+.foot-grid{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+    margin-bottom: 50px;
+}
+.foot-grid div{
+    display: flex;
+    flex-direction: column;
+}
+.foot-grid span{
+    margin-bottom: 15px;
+}
+.foot-grid a{
+    color: rgb(224, 220, 220);
+}
